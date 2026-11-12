@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Downhill Native</string>
+    <string name="native_runtime">Native core: %1$s</string>
+    <string name="legal_notice">This app contains no game files. Choose an ISO image you personally dumped from a game disc you own. The file stays in its original location; it is not copied into the app.</string>
+    <string name="select_iso">Choose ISO image</string>
+    <string name="initial_status">No ISO selected.</string>
+    <string name="validating">Validating %1$s…</string>
+    <string name="iso_valid">%1$s is a valid ISO-9660 image. Native game loading is the next development stage.</string>
+    <string name="iso_invalid">This file does not contain a readable ISO-9660 primary volume descriptor.</string>
+    <string name="iso_unreadable">This file could not be read as an ISO image.</string>
+    <string name="unknown_file">selected file</string>
+</resources>

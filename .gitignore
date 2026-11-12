@@ -1,0 +1,26 @@
+# Local build and IDE output
+.gradle/
+build/
+**/build/
+.idea/
+*.iml
+local.properties
+
+# Project-local toolchain (never commit)
+.tooling/
+
+# Android build artifacts
+*.apk
+*.aab
+
+# Proprietary game content — never commit
+*.iso
+*.bin
+*.cue
+*.chd
+*.elf
+assets-original/
+
+# OS files
+.DS_Store
+Thumbs.db
