@@ -5,6 +5,7 @@ plugins {
 android {
     namespace = "id.dev.rikirg.downhillnative"
     compileSdk = 35
+    ndkVersion = "27.2.12479018"
 
     defaultConfig {
         applicationId = "id.dev.rikirg.downhillnative"
