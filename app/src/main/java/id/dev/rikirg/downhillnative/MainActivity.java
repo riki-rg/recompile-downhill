@@ -3,6 +3,7 @@ package id.dev.rikirg.downhillnative;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.ParcelFileDescriptor;
 import android.provider.OpenableColumns;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,10 +13,8 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
-import java.io.InputStream;
 
 public final class MainActivity extends AppCompatActivity {
-    private static final long ISO_9660_PVD_OFFSET = 16L * IsoImageValidator.SECTOR_SIZE;
 
     static {
         System.loadLibrary("downhillnative");
@@ -47,41 +46,16 @@ public final class MainActivity extends AppCompatActivity {
         String displayName = getDisplayName(uri);
         status.setText(getString(R.string.validating, displayName));
 
-        try (InputStream input = getContentResolver().openInputStream(uri)) {
-            if (input == null || !skipFully(input, ISO_9660_PVD_OFFSET)) {
+        try (ParcelFileDescriptor descriptor = getContentResolver().openFileDescriptor(uri, "r")) {
+            if (descriptor == null) {
                 status.setText(R.string.iso_unreadable);
                 return;
             }
-
-            byte[] sector = input.readNBytes(IsoImageValidator.SECTOR_SIZE);
-            switch (IsoImageValidator.validateSector(sector)) {
-                case VALID:
-                    getContentResolver().takePersistableUriPermission(uri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                    status.setText(getString(R.string.iso_valid, displayName));
-                    break;
-                case NOT_ISO_9660:
-                    status.setText(R.string.iso_invalid);
-                    break;
-                case UNREADABLE:
-                default:
-                    status.setText(R.string.iso_unreadable);
-                    break;
-            }
+            getContentResolver().takePersistableUriPermission(uri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            status.setText(getString(R.string.iso_report, displayName, nativeExploreIso(descriptor.getFd())));
         } catch (IOException | SecurityException exception) {
             status.setText(R.string.iso_unreadable);
         }
-    }
-
-    private static boolean skipFully(InputStream input, long bytes) throws IOException {
-        long remaining = bytes;
-        while (remaining > 0) {
-            long skipped = input.skip(remaining);
-            if (skipped == 0 && input.read() == -1) {
-                return false;
-            }
-            remaining -= skipped == 0 ? 1 : skipped;
-        }
-        return true;
     }
 
     private String getDisplayName(Uri uri) {
@@ -97,4 +71,6 @@ public final class MainActivity extends AppCompatActivity {
     }
 
     private static native String nativeRuntimeName();
+
+    private static native String nativeExploreIso(int fileDescriptor);
 }
