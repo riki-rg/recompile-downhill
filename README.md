@@ -20,6 +20,7 @@ Native Android foundation for a user-supplied PlayStation 2 game image workflow.
 - System document picker for ISO images
 - ISO-9660 validation at the primary volume descriptor (sector 16)
 - Minimal native C++20/Android NDK library, connected through JNI
+- Original black-and-gold downhill-bike adaptive launcher icon; no third-party game artwork is bundled
 
 ## Planned engineering stages
 
