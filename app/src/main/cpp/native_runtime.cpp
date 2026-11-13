@@ -11,7 +11,6 @@
 namespace {
 constexpr std::size_t kSectorSize = 2048;
 constexpr off_t kPvdOffset = 16 * kSectorSize;
-constexpr std::size_t kMaxEntries = 32;
 
 bool readFully(int fd, off_t offset, void* destination, std::size_t size) {
     auto* bytes = static_cast<std::uint8_t*>(destination);
@@ -47,6 +46,80 @@ std::string upperText(const std::uint8_t* bytes, std::size_t length) {
     return value;
 }
 
+struct FileRecord {
+    std::string name;
+    std::uint32_t extent;
+    std::uint32_t size;
+    bool directory;
+};
+
+std::vector<FileRecord> readDirectoryEntries(int fd, std::uint32_t sector, std::uint32_t size) {
+    std::vector<FileRecord> records;
+    if (size == 0 || size > 1024 * 1024) return records;
+    std::vector<std::uint8_t> directory(size);
+    if (!readFully(fd, static_cast<off_t>(sector) * kSectorSize, directory.data(), directory.size())) return records;
+    std::size_t cursor = 0;
+    while (cursor < directory.size()) {
+        const std::uint8_t length = directory[cursor];
+        if (length == 0) { cursor = ((cursor / kSectorSize) + 1) * kSectorSize; continue; }
+        if (length < 34 || cursor + length > directory.size()) break;
+        const auto* record = directory.data() + cursor;
+        const std::uint8_t nameLength = record[32];
+        if (33 + nameLength > length) break;
+        if (nameLength != 1 || (record[33] != 0 && record[33] != 1)) {
+            FileRecord item;
+            item.name = cleanText(record + 33, nameLength);
+            item.extent = readLittleEndian32(record + 2);
+            item.size = readLittleEndian32(record + 10);
+            item.directory = (record[25] & 0x02) != 0;
+            records.push_back(std::move(item));
+        }
+        cursor += length;
+    }
+    return records;
+}
+
+struct TreeStats {
+    std::uint64_t totalFiles = 0;
+    std::uint64_t totalDirectories = 0;
+    std::uint64_t totalBytes = 0;
+    std::string largestFile;
+    std::uint64_t largestSize = 0;
+    std::size_t shownLines = 0;
+    bool truncated = false;
+};
+
+constexpr std::size_t kMaxTreeDepth = 4;
+constexpr std::size_t kMaxTreeLines = 96;
+constexpr std::size_t kMaxTreeEntries = 512;
+
+void walkTree(int fd, const std::vector<FileRecord>& entries, std::size_t depth, TreeStats& stats, std::string& tree) {
+    for (const auto& item : entries) {
+        if (stats.totalFiles + stats.totalDirectories >= kMaxTreeEntries) { stats.truncated = true; return; }
+        const bool show = stats.shownLines < kMaxTreeLines;
+        if (item.directory) {
+            ++stats.totalDirectories;
+            if (show) {
+                for (std::size_t pad = 0; pad < depth; ++pad) tree += "  ";
+                tree += "[D] " + item.name + "\n";
+                ++stats.shownLines;
+            } else stats.truncated = true;
+            if (depth + 1 < kMaxTreeDepth) {
+                walkTree(fd, readDirectoryEntries(fd, item.extent, item.size), depth + 1, stats, tree);
+            } else stats.truncated = true;
+        } else {
+            ++stats.totalFiles;
+            stats.totalBytes += item.size;
+            if (item.size > stats.largestSize) { stats.largestSize = item.size; stats.largestFile = item.name; }
+            if (show) {
+                for (std::size_t pad = 0; pad < depth; ++pad) tree += "  ";
+                tree += item.name + "  |  " + std::to_string(item.size) + " B\n";
+                ++stats.shownLines;
+            } else stats.truncated = true;
+        }
+    }
+}
+
 std::string inspectIso(int fd) {
     std::array<std::uint8_t, kSectorSize> pvd{};
     if (!readFully(fd, kPvdOffset, pvd.data(), pvd.size())) return "Could not read the ISO-9660 primary volume descriptor.";
@@ -60,41 +133,32 @@ std::string inspectIso(int fd) {
     const std::uint32_t rootSize = readLittleEndian32(root + 10);
     if (rootSize == 0 || rootSize > 8 * 1024 * 1024) return "ISO-9660 root directory size is unsupported.";
 
-    std::vector<std::uint8_t> directory(rootSize);
-    if (!readFully(fd, static_cast<off_t>(rootSector) * kSectorSize, directory.data(), directory.size())) return "Could not read the ISO-9660 root directory.";
+    std::vector<FileRecord> rootEntries = readDirectoryEntries(fd, rootSector, rootSize);
+    if (rootEntries.empty()) return "Could not read the ISO-9660 root directory.";
 
-    std::string report = "ISO-9660 volume: " + volume + "\n\nRoot entries:";
+    TreeStats stats;
+    std::string tree;
+    walkTree(fd, rootEntries, 0, stats, tree);
+
     std::uint32_t systemSector = 0;
     std::uint32_t systemSize = 0;
     bool hasSystemCnf = false;
-    std::size_t cursor = 0, entries = 0;
-    bool truncated = false;
-    while (cursor < directory.size()) {
-        const std::uint8_t length = directory[cursor];
-        if (length == 0) { cursor = ((cursor / kSectorSize) + 1) * kSectorSize; continue; }
-        if (length < 34 || cursor + length > directory.size()) return "ISO-9660 directory contains a malformed record.";
-        const auto* record = directory.data() + cursor;
-        const std::uint8_t nameLength = record[32];
-        if (33 + nameLength > length) return "ISO-9660 directory contains an invalid filename.";
-        if (nameLength != 1 || (record[33] != 0 && record[33] != 1)) {
-            const std::string name = cleanText(record + 33, nameLength);
-            const std::uint32_t size = readLittleEndian32(record + 10);
-            if (upperText(record + 33, nameLength) == "SYSTEM.CNF;1") {
-                hasSystemCnf = true;
-                systemSector = readLittleEndian32(record + 2);
-                systemSize = size;
-            }
-            if (entries < kMaxEntries) {
-                report += "\n" + name + "  |  " + std::to_string(size) + " B";
-                ++entries;
-            } else {
-                truncated = true;
-            }
+    for (const auto& item : rootEntries) {
+        if (item.name == "SYSTEM.CNF;1" && !item.directory) {
+            hasSystemCnf = true;
+            systemSector = item.extent;
+            systemSize = item.size;
         }
-        cursor += length;
     }
-    if (entries == 0) report += "\n(no visible root entries)";
-    if (truncated) report += "\n\nDirectory is large; showing the first 32 entries only.";
+
+    std::string report = "ISO-9660 volume: " + volume + "\n\nImage tree (bounded depth 4):\n" + tree;
+    if (stats.truncated) report += "\n(tree truncated — showing the first 96 lines only)";
+    report += "\n\nImage statistics:\n- Files: " + std::to_string(stats.totalFiles)
+        + "\n- Directories: " + std::to_string(stats.totalDirectories)
+        + "\n- Indexed payload: " + std::to_string(stats.totalBytes) + " B";
+    if (!stats.largestFile.empty()) {
+        report += "\n- Largest indexed file: " + stats.largestFile + " (" + std::to_string(stats.largestSize) + " B)";
+    }
 
     report += "\n\nCompatibility verdict: ";
     if (!hasSystemCnf) {

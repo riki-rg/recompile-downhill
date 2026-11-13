@@ -6,7 +6,7 @@
 
 A native Android compatibility-runtime foundation focused exclusively on **Downhill Domination USA / NTSC-U**. The long-term objective is a native Android reimplementation that reads a legally user-supplied disc image locally, rather than shipping commercial game data or a generic PlayStation 2 emulator.
 
-> **Current release candidate: v0.1.4 — Stage 02 USA Fingerprint Gate.** The app reads ISO-9660 root metadata, classifies a user-selected image against the Downhill Domination NTSC-U boot serial (`SLUS_206.47`), and runs the native OpenGL ES 3.0 diagnostic scene. It is **not playable yet**, does not execute PS2 code, and a USA candidate verdict is not yet a supported-build approval.
+> **Current release candidate: v0.1.5 — Stage 04 Recursive ISO Index.** The app reads a bounded recursive directory tree (depth 4, 512 entries, 96 displayed lines) plus image statistics from a user-selected ISO, classifies it against the Downhill Domination NTSC-U boot serial (`SLUS_206.47`), and runs the native OpenGL ES 3.0 diagnostic scene. It is **not playable yet**, does not execute PS2 code, and a USA candidate verdict is not yet a supported-build approval.
 
 ## Project principles
 
@@ -25,6 +25,7 @@ A native Android compatibility-runtime foundation focused exclusively on **Downh
 - Validates the ISO-9660 Primary Volume Descriptor at sector 16.
 - Reads bounded ISO-9660 root-directory metadata safely using positional native reads.
 - Displays the volume identifier and up to 32 root entries with byte sizes.
+- Indexes a bounded recursive directory tree (depth 4, 512 entries, 96 lines) with aggregated image statistics.
 - Classifies the image against the Downhill Domination NTSC-U boot serial with conservative verdicts: `UNSUPPORTED_LAYOUT`, `NON_TARGET_PS2_DISC`, or `USA_CANDIDATE` (see [Stage 02](docs/stages/02-downhill-usa-fingerprint.md)).
 - Launches an original OpenGL ES 3.0 landscape diagnostic scene through the C++/JNI runtime.
 - Reports diagnostic FPS and normalized touch/gamepad input values.
@@ -49,7 +50,7 @@ Detailed behavior and limits: [Stage 01 ISO Explorer](docs/stages/01-iso-explore
 | 01 | Native ISO-9660 Explorer, SAF read-only flow, root metadata report | **Complete — v0.1.2** |
 | 02 | Strict Downhill Domination USA layout/fingerprint gate | **Partial — v0.1.4** (serial verdict; full manifest gate pending) |
 | 03 | Native OpenGL ES diagnostic runtime, lifecycle, touch/gamepad input | **Complete — v0.1.3** |
-| 04 | Downhill-specific local asset inspection adapters | Planned |
+| 04 | Bounded recursive ISO index and image statistics | **Complete — v0.1.5** |
 | 05 | Playable vertical slice: course segment, rider, input, camera, collision, checkpoint | Planned |
 | 06 | Device compatibility matrix, quality profiles, release hardening | Planned |
 

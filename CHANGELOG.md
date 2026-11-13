@@ -2,6 +2,24 @@
 
 All notable project changes are documented here. This project follows [Semantic Versioning](https://semver.org/) for release labels while it remains in pre-1.0 development.
 
+## [0.1.5] — 2026-11-13
+
+### Added
+
+- Bounded recursive ISO-9660 tree index: depth 4, 512 indexed entries, 96 displayed lines.
+- Reusable bounds-checked directory-record parser in the native runtime.
+- Image statistics: indexed files, directories, payload bytes, and largest indexed file.
+- Stage 04 operational documentation.
+
+### Changed
+
+- Application version raised to `0.1.5` (`versionCode 6`).
+- ISO Explorer report now shows a recursive tree and statistics before the compatibility verdict.
+
+### Not included
+
+- No archive extraction, no new verdict semantics, no PS2 emulation, and no proprietary game assets.
+
 ## [0.1.4] — 2026-11-13
 
 ### Added
@@ -76,6 +94,8 @@ All notable project changes are documented here. This project follows [Semantic 
 - User-owned ISO selection and ISO-9660 primary-volume-descriptor validation.
 - C++20 JNI runtime baseline and MIT-licensed repository foundation.
 
+[0.1.5]: https://github.com/riki-rg/recompile-downhill/releases/tag/v0.1.5
+[0.1.4]: https://github.com/riki-rg/recompile-downhill/releases/tag/v0.1.4
 [0.1.3]: https://github.com/riki-rg/recompile-downhill/releases/tag/v0.1.3
 [0.1.2]: https://github.com/riki-rg/recompile-downhill/releases/tag/v0.1.2
 [0.1.1]: https://github.com/riki-rg/recompile-downhill/releases/tag/v0.1.1
