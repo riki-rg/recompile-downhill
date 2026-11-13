@@ -1,52 +1,105 @@
 # Downhill Native
 
-Native Android foundation for a user-supplied PlayStation 2 game image workflow.
+[![Android API](https://img.shields.io/badge/Android-8.0%2B%20(API%2026)-3DDC84?logo=android&logoColor=white)](#requirements)
+[![Language](https://img.shields.io/badge/runtime-C%2B%2B20%20%2B%20Java-00599C?logo=cplusplus&logoColor=white)](#architecture)
+[![License](https://img.shields.io/badge/license-MIT-D6B35C.svg)](LICENSE)
 
-> **Project status: proof of concept.** This build can select an ISO with Android's system file picker and verifies the ISO-9660 primary volume descriptor. It does **not** play, emulate, decrypt, extract, or include any commercial game content.
+A native Android compatibility-runtime foundation focused exclusively on **Downhill Domination USA / NTSC-U**. The long-term objective is a native Android reimplementation that reads a legally user-supplied disc image locally, rather than shipping commercial game data or a generic PlayStation 2 emulator.
 
-## Legal and asset policy
+> **Current release: v0.1.2 — Stage 01 ISO Explorer.** The app can read ISO-9660 metadata from a user-selected ISO and display its volume ID plus root-directory entries. It is **not playable yet**, does not execute PS2 code, and does not yet determine whether an image is a supported Downhill Domination USA dump.
 
-- This repository contains only original application code under the [MIT License](LICENSE).
-- No ISO, PS2 BIOS, executable, texture, model, music, movie, or other copyrighted game asset is included.
-- Users must dump their own disc and select that image locally.
-- The selected ISO remains at its original location. The app persists read-only access through Android's Storage Access Framework; it does not copy the image into the APK or repository.
-- `*.iso`, `*.bin`, `*.cue`, `*.chd`, and `*.elf` are ignored by Git. Never commit proprietary game content.
+## Project principles
 
-## Current capabilities
+- **One target:** Downhill Domination USA / NTSC-U. This is not a multi-game PS2 compatibility project.
+- **Native runtime:** Android UI/lifecycle uses Java; performance-critical runtime components use C++20, JNI, Android NDK, and CMake.
+- **User-owned media:** the user supplies an ISO dumped from a disc they own through Android's system file picker.
+- **No bundled game content:** no ISO, BIOS, executable, model, texture, music, movie, or extracted game asset is included.
+- **Evidence before claims:** compatibility and performance claims are only made after automated tests and real-device validation.
 
-- Android 8.0+ (API 26)
-- Package ID: `id.dev.rikirg.downhillnative`
-- English UI
-- System document picker for ISO images
-- ISO-9660 validation at the primary volume descriptor (sector 16)
-- Minimal native C++20/Android NDK library, connected through JNI
-- Original black-and-gold downhill-bike adaptive launcher icon; no third-party game artwork is bundled
+## What v0.1.2 does
 
-## Planned engineering stages
+- Supports Android 8.0+ (API 26) with `targetSdk 35`.
+- Opens a user-selected image with Android Storage Access Framework (SAF).
+- Persists **read-only** URI access; the ISO remains at its original location.
+- Passes a read-only file descriptor to the native C++ runtime through JNI.
+- Validates the ISO-9660 Primary Volume Descriptor at sector 16.
+- Reads bounded ISO-9660 root-directory metadata safely using positional native reads.
+- Displays the volume identifier and up to 32 root entries with byte sizes.
+- Builds native libraries for `arm64-v8a`, `armeabi-v7a`, `x86`, and `x86_64`.
+- Uses an original black-and-gold adaptive launcher icon; no third-party game artwork is used.
 
-1. Parse the ISO filesystem without copying the image.
-2. Define an asset inspection layer for user-provided data.
-3. Add native OpenGL ES 3.0 renderer and a diagnostic scene.
-4. Add touch/gamepad input mapping and frame pacing.
-5. Implement only independently verified runtime components. This is not a generic PS2 emulator and it cannot convert an ISO into an APK.
+Detailed behavior and limits: [Stage 01 ISO Explorer](docs/stages/01-iso-explorer.md).
 
-## Local build prerequisites
+## What v0.1.2 does **not** do
+
+- Play Downhill Domination.
+- Emulate the PS2 Emotion Engine, VU units, Graphics Synthesizer, BIOS, or execute PS2 MIPS binaries.
+- Confirm a selected ISO is the supported USA build yet.
+- Extract, copy, cache, decrypt, or redistribute game assets.
+- Support PAL/Japan revisions, arbitrary PS2 titles, UDF/Joliet filesystems, subdirectories, or multi-extent files at this stage.
+
+## Compatibility roadmap
+
+| Stage | Deliverable | Status |
+|---|---|---|
+| 01 | Native ISO-9660 Explorer, SAF read-only flow, root metadata report | **Complete — v0.1.2** |
+| 02 | Strict Downhill Domination USA layout/fingerprint gate | Planned |
+| 03 | Native OpenGL ES diagnostic runtime, lifecycle, touch/gamepad input | Planned |
+| 04 | Downhill-specific local asset inspection adapters | Planned |
+| 05 | Playable vertical slice: course segment, rider, input, camera, collision, checkpoint | Planned |
+| 06 | Device compatibility matrix, quality profiles, release hardening | Planned |
+
+The engineering plan is available at [`.hermes/plans/2026-11-12_160000-native-iso-runtime.md`](.hermes/plans/2026-11-12_160000-native-iso-runtime.md).
+
+## Architecture
+
+```text
+User-owned Downhill Domination USA ISO
+              │
+              ▼
+Android Storage Access Framework (read-only URI permission)
+              │
+              ▼
+Java Android shell ── ParcelFileDescriptor / JNI ──► C++20 NDK runtime
+                                                      │
+                                                      ▼
+                                            ISO-9660 parser and
+                                            Downhill-USA compatibility gate
+                                                      │
+                                                      ▼
+                                    future: asset adapters → renderer → gameplay
+```
+
+The ISO remains external to the application. Native code reads only the metadata necessary for the current stage and uses hard bounds checks for directory parsing.
+
+## Requirements
+
+### Device
+
+- Android 8.0 or newer (API 26+).
+- A file provider that supports Android's system document picker.
+- A personally dumped ISO for local inspection. The app deliberately includes no media.
+
+### Local development
 
 - JDK 21
 - Android SDK Platform 35
-- Android SDK Build Tools 35.x
-- Android NDK 27.x
-- CMake 3.22.1 via Android SDK
+- Android Build Tools 35.x
+- Android NDK `27.2.12479018`
+- Android SDK CMake `3.22.1`
 
-The repository intentionally does not include an SDK, NDK, Gradle cache, or generated APK.
+The SDK/NDK, Gradle caches, generated binaries, ISO files, and other local data are intentionally excluded from Git.
 
-## Build
+## Build and test
 
-Set `ANDROID_HOME` and `ANDROID_NDK_HOME`, then run:
+From the canonical working directory:
 
 ```bash
-./gradlew testDebugUnitTest
-./gradlew assembleDebug
+cd /opt/data/apps/recompile-downhill
+
+JAVA_HOME="$PWD/.tooling/jdk" \
+PATH="$PWD/.tooling/jdk/bin:$PATH" \
+./gradlew testDebugUnitTest assembleDebug --no-daemon
 ```
 
 The debug APK is generated at:
@@ -55,12 +108,45 @@ The debug APK is generated at:
 app/build/outputs/apk/debug/app-debug.apk
 ```
 
-## Test focus
+### Test coverage today
 
-`IsoImageValidatorTest` checks valid, invalid, and truncated ISO-9660 primary-volume-descriptor sectors.
+- `IsoImageValidatorTest`: valid, invalid, and truncated ISO-9660 Primary Volume Descriptor sectors.
+- `IsoExplorerResultTest`: safe success, truncation, and failure report presentation.
+- Native runtime is compiled for all configured ABIs during `assembleDebug`.
+
+## Install a debug build
+
+Use Android Debug Bridge with a connected test device:
+
+```bash
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
+Then open **Downhill Native**, choose an ISO through the system picker, and review the metadata report. A successful report is only evidence that the ISO structure was read; it is not a game-compatibility confirmation.
+
+## Legal and data policy
+
+- Repository code is original and licensed under [MIT](LICENSE).
+- Users are responsible for creating and using lawful personal disc backups.
+- Do not submit ISO images, BIOS files, executable files, screenshots containing extracted proprietary assets, or archive dumps in issues or pull requests.
+- Git ignores `*.iso`, `*.bin`, `*.cue`, `*.chd`, and `*.elf`, plus Android build outputs and local toolchains.
+- This project is not affiliated with, endorsed by, or sponsored by the owners of Downhill Domination or PlayStation.
+
+## Project layout
+
+```text
+app/
+  src/main/java/     Android UI, SAF permissions, JNI bridge
+  src/main/cpp/      Native C++20 ISO/runtime foundation
+  src/test/java/     JUnit behavior tests
+docs/stages/         Stage-specific technical documentation
+.hermes/plans/       Implementation roadmap and acceptance gates
+```
+
+## Contributing
+
+Changes must remain scoped to the Downhill Domination USA compatibility path, avoid proprietary content, include appropriate automated tests, update stage documentation, and pass the documented build before being committed.
 
 ## License
 
-The code in this repository is licensed under [MIT](LICENSE).
-
-Game titles and related assets belong to their respective copyright holders. This project is not affiliated with or endorsed by them.
+Source code in this repository is licensed under the [MIT License](LICENSE). Game titles, trademarks, and related assets remain property of their respective owners.
