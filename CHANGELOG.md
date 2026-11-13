@@ -2,6 +2,24 @@
 
 All notable project changes are documented here. This project follows [Semantic Versioning](https://semver.org/) for release labels while it remains in pre-1.0 development.
 
+## [0.1.4] — 2026-11-13
+
+### Added
+
+- Stage 02 conservative Downhill Domination USA fingerprint gate.
+- Native `SYSTEM.CNF` lookup bounded to 16 KiB, read-only, metadata only.
+- Compatibility verdicts: `UNSUPPORTED_LAYOUT`, `NON_TARGET_PS2_DISC`, and `USA_CANDIDATE` for the documented NTSC-U serial `SLUS_206.47`.
+- Stage 02 fingerprint documentation, including the evidence contract and reasons a candidate is not yet “supported”.
+
+### Changed
+
+- Application version raised to `0.1.4` (`versionCode 5`).
+- ISO Explorer report now ends with a compatibility verdict.
+
+### Not included
+
+- No full supported-build manifest, ISO extraction, PS2 emulation, or proprietary game assets.
+
 ## [0.1.3] — 2026-11-12
 
 ### Added

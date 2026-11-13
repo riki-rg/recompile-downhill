@@ -38,6 +38,15 @@ std::string cleanText(const std::uint8_t* bytes, std::size_t length) {
     return value.empty() ? "UNTITLED" : value;
 }
 
+std::string upperText(const std::uint8_t* bytes, std::size_t length) {
+    std::string value;
+    value.reserve(length);
+    for (std::size_t index = 0; index < length; ++index) {
+        value.push_back(static_cast<char>(std::toupper(bytes[index])));
+    }
+    return value;
+}
+
 std::string inspectIso(int fd) {
     std::array<std::uint8_t, kSectorSize> pvd{};
     if (!readFully(fd, kPvdOffset, pvd.data(), pvd.size())) return "Could not read the ISO-9660 primary volume descriptor.";
@@ -55,6 +64,9 @@ std::string inspectIso(int fd) {
     if (!readFully(fd, static_cast<off_t>(rootSector) * kSectorSize, directory.data(), directory.size())) return "Could not read the ISO-9660 root directory.";
 
     std::string report = "ISO-9660 volume: " + volume + "\n\nRoot entries:";
+    std::uint32_t systemSector = 0;
+    std::uint32_t systemSize = 0;
+    bool hasSystemCnf = false;
     std::size_t cursor = 0, entries = 0;
     bool truncated = false;
     while (cursor < directory.size()) {
@@ -65,15 +77,49 @@ std::string inspectIso(int fd) {
         const std::uint8_t nameLength = record[32];
         if (33 + nameLength > length) return "ISO-9660 directory contains an invalid filename.";
         if (nameLength != 1 || (record[33] != 0 && record[33] != 1)) {
-            if (entries == kMaxEntries) { truncated = true; break; }
-            report += "\n" + cleanText(record + 33, nameLength) + "  |  " + std::to_string(readLittleEndian32(record + 10)) + " B";
-            ++entries;
+            const std::string name = cleanText(record + 33, nameLength);
+            const std::uint32_t size = readLittleEndian32(record + 10);
+            if (upperText(record + 33, nameLength) == "SYSTEM.CNF;1") {
+                hasSystemCnf = true;
+                systemSector = readLittleEndian32(record + 2);
+                systemSize = size;
+            }
+            if (entries < kMaxEntries) {
+                report += "\n" + name + "  |  " + std::to_string(size) + " B";
+                ++entries;
+            } else {
+                truncated = true;
+            }
         }
         cursor += length;
     }
     if (entries == 0) report += "\n(no visible root entries)";
     if (truncated) report += "\n\nDirectory is large; showing the first 32 entries only.";
-    return report + "\n\nDownhill Domination USA compatibility has not yet been verified.";
+
+    report += "\n\nCompatibility verdict: ";
+    if (!hasSystemCnf) {
+        report += "UNSUPPORTED_LAYOUT — the root directory has no readable SYSTEM.CNF record.";
+    } else {
+        constexpr std::size_t kSystemCnfLimit = 16 * 1024;
+        const std::size_t cnfSize = systemSize > kSystemCnfLimit ? kSystemCnfLimit : systemSize;
+        if (systemSize == 0 || cnfSize == 0) {
+            report += "UNSUPPORTED_LAYOUT — SYSTEM.CNF metadata is malformed.";
+        } else {
+            std::vector<std::uint8_t> cnf(cnfSize);
+            if (!readFully(fd, static_cast<off_t>(systemSector) * kSectorSize, cnf.data(), cnf.size())) {
+                report += "UNSUPPORTED_LAYOUT — SYSTEM.CNF could not be read.";
+            } else {
+                const std::string text = upperText(cnf.data(), cnf.size());
+                if (text.find("SLUS_206.47") != std::string::npos) {
+                    report += "USA_CANDIDATE — SYSTEM.CNF advertises SLUS_206.47 (Downhill Domination NTSC-U serial). "
+                              "Layout verification is still required before this is treated as a supported build.";
+                } else {
+                    report += "NON_TARGET_PS2_DISC — SYSTEM.CNF does not advertise the Downhill Domination USA serial.";
+                }
+            }
+        }
+    }
+    return report;
 }
 
 int gWidth = 1;
