@@ -36,6 +36,9 @@ public final class MainActivity extends AppCompatActivity {
 
         Button selectIso = findViewById(R.id.select_iso);
         selectIso.setOnClickListener(view -> isoPicker.launch(new String[]{"application/octet-stream", "application/x-iso9660-image"}));
+
+        Button diagnostic = findViewById(R.id.open_diagnostic);
+        diagnostic.setOnClickListener(view -> startActivity(new Intent(this, DiagnosticActivity.class)));
     }
 
     private void validateSelectedImage(Uri uri) {

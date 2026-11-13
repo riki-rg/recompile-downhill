@@ -4,4 +4,5 @@ project(downhillnative)
 add_library(downhillnative SHARED native_runtime.cpp)
 
 find_library(log-lib log)
-target_link_libraries(downhillnative ${log-lib})
+find_library(gles-lib GLESv3)
+target_link_libraries(downhillnative ${log-lib} ${gles-lib})

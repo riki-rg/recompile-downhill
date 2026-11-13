@@ -8,6 +8,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DownhillNative">
         <activity
+            android:name=".DiagnosticActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
