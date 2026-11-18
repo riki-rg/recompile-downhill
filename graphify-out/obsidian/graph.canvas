@@ -1,0 +1,2884 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "DiagnosticActivity & OpenGL ES View",
+      "x": 0,
+      "y": 0,
+      "width": 1540,
+      "height": 720,
+      "color": "1"
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_nativesurface",
+      "type": "file",
+      "file": "dot-NativeSurface().md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_applygamepadkey",
+      "type": "file",
+      "file": "dot-applyGamepadKey().md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_deadzone",
+      "type": "file",
+      "file": "dot-deadZone().md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "type": "file",
+      "file": "dot-isGamepad().md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglcreate",
+      "type": "file",
+      "file": "dot-nativeGlCreate().md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglframe",
+      "type": "file",
+      "file": "dot-nativeGlFrame().md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglresize",
+      "type": "file",
+      "file": "dot-nativeGlResize().md",
+      "x": 1220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate",
+      "type": "file",
+      "file": "dot-onCreate().md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe",
+      "type": "file",
+      "file": "dot-onDrawFrame().md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent",
+      "type": "file",
+      "file": "dot-onGenericMotionEvent().md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown",
+      "type": "file",
+      "file": "dot-onKeyDown().md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup",
+      "type": "file",
+      "file": "dot-onKeyUp().md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onpause",
+      "type": "file",
+      "file": "dot-onPause().md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onresume",
+      "type": "file",
+      "file": "dot-onResume().md",
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged",
+      "type": "file",
+      "file": "dot-onSurfaceChanged().md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated",
+      "type": "file",
+      "file": "dot-onSurfaceCreated().md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ontouchevent",
+      "type": "file",
+      "file": "dot-onTouchEvent().md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_trigger",
+      "type": "file",
+      "file": "dot-trigger().md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "type": "file",
+      "file": "DiagnosticActivity.md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "type": "file",
+      "file": "DiagnosticActivity.java.md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_eglconfig",
+      "type": "file",
+      "file": "EGLConfig.md",
+      "x": 1220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gl10",
+      "type": "file",
+      "file": "GL10.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "type": "file",
+      "file": "NativeSurface.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "type": "file",
+      "file": "Override.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_renderer",
+      "type": "file",
+      "file": "Renderer.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_activityinfo",
+      "type": "file",
+      "file": "activityinfo.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_android_app_activity",
+      "type": "file",
+      "file": "android.app.Activity.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_android_opengl_glsurfaceview",
+      "type": "file",
+      "file": "android.opengl.GLSurfaceView.md",
+      "x": 1220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_android_os_bundle",
+      "type": "file",
+      "file": "android.os.Bundle.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_android_view_keyevent",
+      "type": "file",
+      "file": "android.view.KeyEvent.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_android_view_motionevent",
+      "type": "file",
+      "file": "android.view.MotionEvent.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_android_widget_textview",
+      "type": "file",
+      "file": "android.widget.TextView.md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_color",
+      "type": "file",
+      "file": "color.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_framelayout",
+      "type": "file",
+      "file": "framelayout.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_inputdevice",
+      "type": "file",
+      "file": "inputdevice.md",
+      "x": 1220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_locale",
+      "type": "file",
+      "file": "locale.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_window",
+      "type": "file",
+      "file": "window.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_windowmanager",
+      "type": "file",
+      "file": "windowmanager.md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Stages, Changelog & Runtime Plan",
+      "x": 1620,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "2"
+    },
+    {
+      "id": "n_stage04_image_statistics",
+      "type": "file",
+      "file": "Aggregated ISO Image Statistics.md",
+      "x": 1640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage01_root_dir_reader",
+      "type": "file",
+      "file": "Bounded Root Directory Enumeration (32 entries  8 MiB  pread).md",
+      "x": 1840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage02_system_cnf_lookup",
+      "type": "file",
+      "file": "Bounded SYSTEM.CNF Lookup (16 KiB).md",
+      "x": 2040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage02_compatibility_verdicts",
+      "type": "file",
+      "file": "Conservative Compatibility Verdicts.md",
+      "x": 2240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_target_downhill_usa",
+      "type": "file",
+      "file": "Downhill Domination USA  NTSC-U Target.md",
+      "x": 2440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_changelog_release_history",
+      "type": "file",
+      "file": "Downhill Native Changelog.md",
+      "x": 2640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_downhill_native",
+      "type": "file",
+      "file": "Downhill Native Project.md",
+      "x": 1640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_plan_native_iso_runtime",
+      "type": "file",
+      "file": "Downhill Native USA Runtime Implementation Plan.md",
+      "x": 1840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage03_fps_telemetry",
+      "type": "file",
+      "file": "FPS & Normalized Input Telemetry Overlay.md",
+      "x": 2040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage01_pvd_validation",
+      "type": "file",
+      "file": "ISO-9660 Primary Volume Descriptor Validation (Sector 16).md",
+      "x": 2240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_data_policy",
+      "type": "file",
+      "file": "Legal & No-Bundled-Assets Policy.md",
+      "x": 2440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage02_slus_206_47",
+      "type": "file",
+      "file": "NTSC-U Executable Boot Serial SLUS_206.47.md",
+      "x": 2640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage04_recursive_tree_caps",
+      "type": "file",
+      "file": "Recursive Tree Safety Caps (Depth 4  512 Entries  96 Lines  1 MiB).md",
+      "x": 1640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_changelog_v0_1_0",
+      "type": "file",
+      "file": "Release v0.1.0 (Initial AndroidNDK Proof-of-Concept).md",
+      "x": 1840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_changelog_v0_1_1",
+      "type": "file",
+      "file": "Release v0.1.1 (Adaptive Launcher Icon).md",
+      "x": 2040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_v012_release",
+      "type": "file",
+      "file": "Release v0.1.2 (Stage 01 ISO Explorer).md",
+      "x": 2240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_v013_release",
+      "type": "file",
+      "file": "Release v0.1.3 (Stage 03 Native Runtime Diagnostic).md",
+      "x": 2440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_v014_release",
+      "type": "file",
+      "file": "Release v0.1.4 (Stage 02 USA Fingerprint Gate).md",
+      "x": 2640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_v015_release",
+      "type": "file",
+      "file": "Release v0.1.5 (Stage 04 Recursive ISO Index).md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage01_iso_explorer",
+      "type": "file",
+      "file": "Stage 01 ISO Explorer.md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage02_usa_fingerprint",
+      "type": "file",
+      "file": "Stage 02 Downhill Domination USA Fingerprint Gate.md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage03_native_runtime_diagnostic",
+      "type": "file",
+      "file": "Stage 03 Native Runtime & Input Diagnostic.md",
+      "x": 2240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage04_recursive_iso_index",
+      "type": "file",
+      "file": "Stage 04 Bounded Recursive ISO Index.md",
+      "x": 2440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_plan_stage05_vertical_slice",
+      "type": "file",
+      "file": "Stage 05 Playable Vertical Slice Gate.md",
+      "x": 2640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_plan_stage06_release_hardening",
+      "type": "file",
+      "file": "Stage 06 Compatibility & Release Hardening.md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage03_input_mapping",
+      "type": "file",
+      "file": "Touch & Android Gamepad Input Mapping (0.15 Dead Zone).md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "C++20 ISO-9660 Parser Core",
+      "x": 3020,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "3"
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_filerecord",
+      "type": "file",
+      "file": "FileRecord.md",
+      "x": 3040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_array",
+      "type": "file",
+      "file": "array.md",
+      "x": 3240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cctype",
+      "type": "file",
+      "file": "cctype.md",
+      "x": 3440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_cleantext",
+      "type": "file",
+      "file": "cleanText().md",
+      "x": 3640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cstdint",
+      "type": "file",
+      "file": "cstdint.md",
+      "x": 3840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_filerecord_directory",
+      "type": "file",
+      "file": "directory.md",
+      "x": 3040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_filerecord_extent",
+      "type": "file",
+      "file": "extent.md",
+      "x": 3240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gl3",
+      "type": "file",
+      "file": "gl3.md",
+      "x": 3440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "type": "file",
+      "file": "inspectIso().md",
+      "x": 3640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_jni",
+      "type": "file",
+      "file": "jni.md",
+      "x": 3840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_filerecord_name",
+      "type": "file",
+      "file": "name.md",
+      "x": 3040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime",
+      "type": "file",
+      "file": "native_runtime.cpp.md",
+      "x": 3240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_off_t",
+      "type": "file",
+      "file": "off_t.md",
+      "x": 3440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "type": "file",
+      "file": "readDirectoryEntries().md",
+      "x": 3640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_readfully",
+      "type": "file",
+      "file": "readFully().md",
+      "x": 3840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_readlittleendian32",
+      "type": "file",
+      "file": "readLittleEndian32().md",
+      "x": 3040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_filerecord_size",
+      "type": "file",
+      "file": "size.md",
+      "x": 3240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_size_t",
+      "type": "file",
+      "file": "size_t.md",
+      "x": 3440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_string",
+      "type": "file",
+      "file": "string.md",
+      "x": 3640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_uint32_t",
+      "type": "file",
+      "file": "uint32_t.md",
+      "x": 3840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_uint8_t",
+      "type": "file",
+      "file": "uint8_t.md",
+      "x": 3040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_unistd",
+      "type": "file",
+      "file": "unistd.md",
+      "x": 3240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_uppertext",
+      "type": "file",
+      "file": "upperText().md",
+      "x": 3440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vector",
+      "type": "file",
+      "file": "vector.md",
+      "x": 3640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_walktree",
+      "type": "file",
+      "file": "walkTree().md",
+      "x": 3840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "IsoExplorerResult Model & Unit Tests",
+      "x": 4200,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_isoexplorerresult",
+      "type": "file",
+      "file": "dot-IsoExplorerResult().md",
+      "x": 4220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_failure",
+      "type": "file",
+      "file": "dot-failure().md",
+      "x": 4420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsareadableboundedreport",
+      "type": "file",
+      "file": "dot-formatsAReadableBoundedReport().md",
+      "x": 4620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsfailureasusersafemessage",
+      "type": "file",
+      "file": "dot-formatsFailureAsUserSafeMessage().md",
+      "x": 4820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatstruncationnoticewithoutclaimingcompatibility",
+      "type": "file",
+      "file": "dot-formatsTruncationNoticeWithoutClaimingCompatibility().md",
+      "x": 5020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_issuccess",
+      "type": "file",
+      "file": "dot-isSuccess().md",
+      "x": 4220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_recognizesvalidiso9660primaryvolumedescriptor",
+      "type": "file",
+      "file": "dot-recognizesValidIso9660PrimaryVolumeDescriptor().md",
+      "x": 4420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_rejectssectorwithoutiso9660signature",
+      "type": "file",
+      "file": "dot-rejectsSectorWithoutIso9660Signature().md",
+      "x": 4620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_rejectstruncatedsector",
+      "type": "file",
+      "file": "dot-rejectsTruncatedSector().md",
+      "x": 4820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "type": "file",
+      "file": "dot-success().md",
+      "x": 5020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "type": "file",
+      "file": "dot-toDisplayText().md",
+      "x": 4220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "type": "file",
+      "file": "dot-validateSector().md",
+      "x": 4420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "type": "file",
+      "file": "IsoExplorerResult.md",
+      "x": 4620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult",
+      "type": "file",
+      "file": "IsoExplorerResult.java.md",
+      "x": 4820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest",
+      "type": "file",
+      "file": "IsoExplorerResultTest.md",
+      "x": 5020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest",
+      "type": "file",
+      "file": "IsoExplorerResultTest.java.md",
+      "x": 4220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest",
+      "type": "file",
+      "file": "IsoImageValidatorTest.md",
+      "x": 4420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest",
+      "type": "file",
+      "file": "IsoImageValidatorTest.java.md",
+      "x": 4620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_arraylist",
+      "type": "file",
+      "file": "arraylist.md",
+      "x": 4820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_assertequals",
+      "type": "file",
+      "file": "assertequals.md",
+      "x": 5020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_asserttrue",
+      "type": "file",
+      "file": "asserttrue.md",
+      "x": 4220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_collections",
+      "type": "file",
+      "file": "collections.md",
+      "x": 4420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_list",
+      "type": "file",
+      "file": "list.md",
+      "x": 4620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_org_junit_test",
+      "type": "file",
+      "file": "org.junit.Test.md",
+      "x": 4820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "MainActivity & SAF URI Launcher",
+      "x": 0,
+      "y": 800,
+      "width": 1100,
+      "height": 520,
+      "color": "5"
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity_getdisplayname",
+      "type": "file",
+      "file": "dot-getDisplayName().md",
+      "x": 20,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity_nativeexploreiso",
+      "type": "file",
+      "file": "dot-nativeExploreIso().md",
+      "x": 220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity_nativeruntimename",
+      "type": "file",
+      "file": "dot-nativeRuntimeName().md",
+      "x": 420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity_oncreate",
+      "type": "file",
+      "file": "dot-onCreate()_1.md",
+      "x": 620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity_validateselectedimage",
+      "type": "file",
+      "file": "dot-validateSelectedImage().md",
+      "x": 820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity",
+      "type": "file",
+      "file": "MainActivity.md",
+      "x": 20,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "type": "file",
+      "file": "MainActivity.java.md",
+      "x": 220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_java_override",
+      "type": "file",
+      "file": "Override_1.md",
+      "x": 420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_activityresultcontracts",
+      "type": "file",
+      "file": "activityresultcontracts.md",
+      "x": 620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_android_net_uri",
+      "type": "file",
+      "file": "android.net.Uri.md",
+      "x": 820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_androidx_activity_result_activityresultlauncher",
+      "type": "file",
+      "file": "androidx.activity.result.ActivityResultLauncher.md",
+      "x": 20,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_androidx_appcompat_app_appcompatactivity",
+      "type": "file",
+      "file": "androidx.appcompat.app.AppCompatActivity.md",
+      "x": 220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_button",
+      "type": "file",
+      "file": "button.md",
+      "x": 420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_intent",
+      "type": "file",
+      "file": "intent.md",
+      "x": 620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ioexception",
+      "type": "file",
+      "file": "ioexception.md",
+      "x": 820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_openablecolumns",
+      "type": "file",
+      "file": "openablecolumns.md",
+      "x": 20,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_parcelfiledescriptor",
+      "type": "file",
+      "file": "parcelfiledescriptor.md",
+      "x": 220,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "JNI Native Bridge Entrypoints",
+      "x": 1620,
+      "y": 800,
+      "width": 880,
+      "height": 420,
+      "color": "6"
+    },
+    {
+      "id": "n_jniexport",
+      "type": "file",
+      "file": "JNIEXPORT.md",
+      "x": 1640,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_jnienv",
+      "type": "file",
+      "file": "JNIEnv.md",
+      "x": 1840,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate",
+      "type": "file",
+      "file": "Java_id_dev_rikirg_downhillnative_DiagnosticActivity_nativeGlCreate().md",
+      "x": 2040,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "type": "file",
+      "file": "Java_id_dev_rikirg_downhillnative_DiagnosticActivity_nativeGlFrame().md",
+      "x": 2240,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize",
+      "type": "file",
+      "file": "Java_id_dev_rikirg_downhillnative_DiagnosticActivity_nativeGlResize().md",
+      "x": 1640,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "type": "file",
+      "file": "Java_id_dev_rikirg_downhillnative_MainActivity_nativeExploreIso().md",
+      "x": 1840,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename",
+      "type": "file",
+      "file": "Java_id_dev_rikirg_downhillnative_MainActivity_nativeRuntimeName().md",
+      "x": 2040,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_clearpanel",
+      "type": "file",
+      "file": "clearPanel().md",
+      "x": 2240,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_jclass",
+      "type": "file",
+      "file": "jclass.md",
+      "x": 1640,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_jfloat",
+      "type": "file",
+      "file": "jfloat.md",
+      "x": 1840,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_jint",
+      "type": "file",
+      "file": "jint.md",
+      "x": 2040,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Recursive ISO Tree Statistics",
+      "x": 3020,
+      "y": 800,
+      "width": 660,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats",
+      "type": "file",
+      "file": "TreeStats.md",
+      "x": 3040,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats_largestfile",
+      "type": "file",
+      "file": "largestFile.md",
+      "x": 3240,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats_largestsize",
+      "type": "file",
+      "file": "largestSize.md",
+      "x": 3440,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats_shownlines",
+      "type": "file",
+      "file": "shownLines.md",
+      "x": 3040,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats_totalbytes",
+      "type": "file",
+      "file": "totalBytes.md",
+      "x": 3240,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats_totaldirectories",
+      "type": "file",
+      "file": "totalDirectories.md",
+      "x": 3440,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats_totalfiles",
+      "type": "file",
+      "file": "totalFiles.md",
+      "x": 3040,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_native_runtime_treestats_truncated",
+      "type": "file",
+      "file": "truncated.md",
+      "x": 3240,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_uint64_t",
+      "type": "file",
+      "file": "uint64_t.md",
+      "x": 3440,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "CMake Native Build & NDK Targets",
+      "x": 4200,
+      "y": 800,
+      "width": 660,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_app_src_main_cpp_cmakelists_android_log_lib",
+      "type": "file",
+      "file": "Android NDK Log Library (log).md",
+      "x": 4220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_saf_readonly_flow",
+      "type": "file",
+      "file": "Android SAF Read-Only URI Flow.md",
+      "x": 4420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_iso9660_parser",
+      "type": "file",
+      "file": "C++20 ISO-9660 Parser Core.md",
+      "x": 4620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_cmakelists_downhillnative_target",
+      "type": "file",
+      "file": "CMake Shared Library Target downhillnative.md",
+      "x": 4220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_stage03_diagnostic_activity",
+      "type": "file",
+      "file": "DiagnosticActivity & GLSurfaceView (OpenGL ES 3.0).md",
+      "x": 4420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_plan_iso_explorer_result_contract",
+      "type": "file",
+      "file": "IsoExplorerResult JNI Contract.md",
+      "x": 4620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_jni_bridge",
+      "type": "file",
+      "file": "Java-to-C++20 JNI Bridge (ParcelFileDescriptor).md",
+      "x": 4220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_cpp_cmakelists_glesv3_lib",
+      "type": "file",
+      "file": "OpenGL ES 3.0 System Library (GLESv3).md",
+      "x": 4420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "ISO Image Format Validator",
+      "x": 0,
+      "y": 1400,
+      "width": 660,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_isoimagevalidator",
+      "type": "file",
+      "file": "dot-IsoImageValidator().md",
+      "x": 20,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator",
+      "type": "file",
+      "file": "IsoImageValidator.md",
+      "x": 220,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator",
+      "type": "file",
+      "file": "IsoImageValidator.java.md",
+      "x": 420,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_not_iso_9660",
+      "type": "file",
+      "file": "NOT_ISO_9660.md",
+      "x": 20,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "type": "file",
+      "file": "Result.md",
+      "x": 220,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_unreadable",
+      "type": "file",
+      "file": "UNREADABLE.md",
+      "x": 420,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_valid",
+      "type": "file",
+      "file": "VALID.md",
+      "x": 20,
+      "y": 1640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "Gradle Wrapper Script",
+      "x": 1620,
+      "y": 1400,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_gradlew_die",
+      "type": "file",
+      "file": "die().md",
+      "x": 1640,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gradlew",
+      "type": "file",
+      "file": "gradlew.md",
+      "x": 1840,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gradlew__entry",
+      "type": "file",
+      "file": "gradlew script.md",
+      "x": 1640,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_gradlew_warn",
+      "type": "file",
+      "file": "warn().md",
+      "x": 1840,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "App Gradle Build Script",
+      "x": 3020,
+      "y": 1400,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_app_build_gradle",
+      "type": "file",
+      "file": "appbuild.gradle.kts.md",
+      "x": 3040,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "Root Gradle Build Script",
+      "x": 4200,
+      "y": 1400,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_build_gradle",
+      "type": "file",
+      "file": "build.gradle.kts.md",
+      "x": 4220,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Gradle Project Settings",
+      "x": 0,
+      "y": 1900,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_settings_gradle",
+      "type": "file",
+      "file": "settings.gradle.kts.md",
+      "x": 20,
+      "y": 1980,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_app_src_main_cpp_cmakelists_downhillnative_target_app_src_main_cpp_native_runtime",
+      "fromNode": "n_app_src_main_cpp_cmakelists_downhillnative_target",
+      "toNode": "n_app_src_main_cpp_native_runtime",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readme_iso9660_parser",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_readme_iso9660_parser",
+      "label": "implements [INFERRED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_cleantext",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_cleantext",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_clearpanel",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_clearpanel",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_filerecord",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_inspectiso",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_readfully",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_readfully",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_readlittleendian32",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_readlittleendian32",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_treestats",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_uppertext",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_uppertext",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_app_src_main_cpp_native_runtime_walktree",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_array",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_array",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_cctype",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_cctype",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_cstdint",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_cstdint",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_gl3",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_gl3",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_jni",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_jni",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_string",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_string",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_unistd",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_unistd",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_vector",
+      "fromNode": "n_app_src_main_cpp_native_runtime",
+      "toNode": "n_vector",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_app_src_main_cpp_native_runtime_readfully",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_readfully",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readdirectoryentries_app_src_main_cpp_native_runtime_readfully",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "toNode": "n_app_src_main_cpp_native_runtime_readfully",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readfully_off_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readfully",
+      "toNode": "n_off_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readfully_size_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readfully",
+      "toNode": "n_size_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_cleantext_size_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_cleantext",
+      "toNode": "n_size_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_size_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_size_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_uppertext_size_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_uppertext",
+      "toNode": "n_size_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_walktree_size_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "toNode": "n_size_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_app_src_main_cpp_native_runtime_readlittleendian32",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_readlittleendian32",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readdirectoryentries_app_src_main_cpp_native_runtime_readlittleendian32",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "toNode": "n_app_src_main_cpp_native_runtime_readlittleendian32",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readlittleendian32_uint32_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readlittleendian32",
+      "toNode": "n_uint32_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readlittleendian32_uint8_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readlittleendian32",
+      "toNode": "n_uint8_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_filerecord_uint32_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "toNode": "n_uint32_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readdirectoryentries_uint32_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "toNode": "n_uint32_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_cleantext_uint8_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_cleantext",
+      "toNode": "n_uint8_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_uppertext_uint8_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_uppertext",
+      "toNode": "n_uint8_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_cleantext_string",
+      "fromNode": "n_app_src_main_cpp_native_runtime_cleantext",
+      "toNode": "n_string",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_app_src_main_cpp_native_runtime_cleantext",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_cleantext",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readdirectoryentries_app_src_main_cpp_native_runtime_cleantext",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "toNode": "n_app_src_main_cpp_native_runtime_cleantext",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_filerecord_string",
+      "fromNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "toNode": "n_string",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_string",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_string",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_string",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_string",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_uppertext_string",
+      "fromNode": "n_app_src_main_cpp_native_runtime_uppertext",
+      "toNode": "n_string",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_walktree_string",
+      "fromNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "toNode": "n_string",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_app_src_main_cpp_native_runtime_uppertext",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_uppertext",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_filerecord_app_src_main_cpp_native_runtime_filerecord_directory",
+      "fromNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord_directory",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_filerecord_app_src_main_cpp_native_runtime_filerecord_extent",
+      "fromNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord_extent",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_filerecord_app_src_main_cpp_native_runtime_filerecord_name",
+      "fromNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord_name",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_filerecord_app_src_main_cpp_native_runtime_filerecord_size",
+      "fromNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord_size",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readdirectoryentries_app_src_main_cpp_native_runtime_filerecord",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_walktree_app_src_main_cpp_native_runtime_filerecord",
+      "fromNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_app_src_main_cpp_native_runtime_filerecord_size",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord_size",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readdirectoryentries_app_src_main_cpp_native_runtime_filerecord_size",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "toNode": "n_app_src_main_cpp_native_runtime_filerecord_size",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_readdirectoryentries_vector",
+      "fromNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "toNode": "n_vector",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_walktree_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "fromNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "toNode": "n_app_src_main_cpp_native_runtime_readdirectoryentries",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_walktree_vector",
+      "fromNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "toNode": "n_vector",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_app_src_main_cpp_native_runtime_treestats_largestfile",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats_largestfile",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_app_src_main_cpp_native_runtime_treestats_largestsize",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats_largestsize",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_app_src_main_cpp_native_runtime_treestats_shownlines",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats_shownlines",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_app_src_main_cpp_native_runtime_treestats_totalbytes",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats_totalbytes",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_app_src_main_cpp_native_runtime_treestats_totaldirectories",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats_totaldirectories",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_app_src_main_cpp_native_runtime_treestats_totalfiles",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats_totalfiles",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_app_src_main_cpp_native_runtime_treestats_truncated",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats_truncated",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_treestats_uint64_t",
+      "fromNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "toNode": "n_uint64_t",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_walktree_app_src_main_cpp_native_runtime_treestats",
+      "fromNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "toNode": "n_app_src_main_cpp_native_runtime_treestats",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_inspectiso_app_src_main_cpp_native_runtime_walktree",
+      "fromNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_walktree_app_src_main_cpp_native_runtime_walktree",
+      "fromNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "toNode": "n_app_src_main_cpp_native_runtime_walktree",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso_app_src_main_cpp_native_runtime_inspectiso",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "toNode": "n_app_src_main_cpp_native_runtime_inspectiso",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe_app_src_main_cpp_native_runtime_clearpanel",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "toNode": "n_app_src_main_cpp_native_runtime_clearpanel",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename_jclass",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename",
+      "toNode": "n_jclass",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename_jnienv",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename",
+      "toNode": "n_jnienv",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename_jniexport",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeruntimename",
+      "toNode": "n_jniexport",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate_jniexport",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate",
+      "toNode": "n_jniexport",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe_jniexport",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "toNode": "n_jniexport",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize_jniexport",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize",
+      "toNode": "n_jniexport",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso_jniexport",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "toNode": "n_jniexport",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate_jnienv",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate",
+      "toNode": "n_jnienv",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe_jnienv",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "toNode": "n_jnienv",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize_jnienv",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize",
+      "toNode": "n_jnienv",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso_jnienv",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "toNode": "n_jnienv",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate_jclass",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglcreate",
+      "toNode": "n_jclass",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe_jclass",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "toNode": "n_jclass",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize_jclass",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize",
+      "toNode": "n_jclass",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso_jclass",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "toNode": "n_jclass",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso_jint",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_mainactivity_nativeexploreiso",
+      "toNode": "n_jint",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize_jint",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglresize",
+      "toNode": "n_jint",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe_jfloat",
+      "fromNode": "n_app_src_main_cpp_native_runtime_java_id_dev_rikirg_downhillnative_diagnosticactivity_nativeglframe",
+      "toNode": "n_jfloat",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_activityinfo",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_activityinfo",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_android_app_activity",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_android_app_activity",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_android_opengl_glsurfaceview",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_android_opengl_glsurfaceview",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_android_os_bundle",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_android_os_bundle",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_android_view_keyevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_android_view_keyevent",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_android_view_motionevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_android_view_motionevent",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_android_widget_textview",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_android_widget_textview",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_color",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_color",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_framelayout",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_framelayout",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_inputdevice",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_inputdevice",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_locale",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_locale",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_window",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_window",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_windowmanager",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity",
+      "toNode": "n_windowmanager",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_android_app_activity",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_android_app_activity",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_android_widget_textview",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_android_widget_textview",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglcreate",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglcreate",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglframe",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglframe",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglresize",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglresize",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onpause",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onpause",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onresume",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onresume",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate_android_os_bundle",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate",
+      "toNode": "n_android_os_bundle",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_nativesurface",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_nativesurface",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_oncreate",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ontouchevent_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ontouchevent",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onpause_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onpause",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onresume_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_onresume",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_java_override",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_android_opengl_glsurfaceview",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_android_opengl_glsurfaceview",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_applygamepadkey",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_applygamepadkey",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_deadzone",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_deadzone",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_nativesurface",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_nativesurface",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ontouchevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ontouchevent",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_trigger",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_trigger",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_renderer",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface",
+      "toNode": "n_renderer",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglcreate",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglcreate",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated_eglconfig",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated",
+      "toNode": "n_eglconfig",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated_gl10",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacecreated",
+      "toNode": "n_gl10",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe_gl10",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe",
+      "toNode": "n_gl10",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged_gl10",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged",
+      "toNode": "n_gl10",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglresize",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onsurfacechanged",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglresize",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglframe",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ondrawframe",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativeglframe",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ontouchevent_android_view_motionevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ontouchevent",
+      "toNode": "n_android_view_motionevent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent_android_view_motionevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent",
+      "toNode": "n_android_view_motionevent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_deadzone",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_deadzone",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_trigger",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_ongenericmotionevent",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_trigger",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown_android_view_keyevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown",
+      "toNode": "n_android_view_keyevent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_applygamepadkey",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_applygamepadkey",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeydown",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup_android_view_keyevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup",
+      "toNode": "n_android_view_keyevent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_applygamepadkey",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_applygamepadkey",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_onkeyup",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad_android_view_keyevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_isgamepad",
+      "toNode": "n_android_view_keyevent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_trigger_android_view_motionevent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_diagnosticactivity_diagnosticactivity_nativesurface_trigger",
+      "toNode": "n_android_view_motionevent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_arraylist",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult",
+      "toNode": "n_arraylist",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_collections",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult",
+      "toNode": "n_collections",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_list",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult",
+      "toNode": "n_list",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_failure",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_failure",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_isoexplorerresult",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_isoexplorerresult",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_issuccess",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_issuccess",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_failure_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_isoexplorerresult",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_failure",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_isoexplorerresult",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_isoexplorerresult",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_isoexplorerresult",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsareadableboundedreport_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsareadableboundedreport",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatstruncationnoticewithoutclaimingcompatibility_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatstruncationnoticewithoutclaimingcompatibility",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_success",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsfailureasusersafemessage_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_failure",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsfailureasusersafemessage",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_failure",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_issuccess",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_issuccess",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsareadableboundedreport_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_issuccess",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsareadableboundedreport",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_issuccess",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsareadableboundedreport_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsareadableboundedreport",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsfailureasusersafemessage_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatsfailureasusersafemessage",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatstruncationnoticewithoutclaimingcompatibility_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoexplorerresulttest_isoexplorerresulttest_formatstruncationnoticewithoutclaimingcompatibility",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoexplorerresult_isoexplorerresult_todisplaytext",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_isoimagevalidator",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_isoimagevalidator",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_not_iso_9660",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_not_iso_9660",
+      "label": "case_of [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_unreadable",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_unreadable",
+      "label": "case_of [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_valid",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result_valid",
+      "label": "case_of [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_result",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_recognizesvalidiso9660primaryvolumedescriptor_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_recognizesvalidiso9660primaryvolumedescriptor",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_rejectssectorwithoutiso9660signature_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_rejectssectorwithoutiso9660signature",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_rejectstruncatedsector_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "fromNode": "n_app_src_test_java_id_dev_rikirg_downhillnative_isoimagevalidatortest_isoimagevalidatortest_rejectstruncatedsector",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_isoimagevalidator_isoimagevalidator_validatesector",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_activityresultcontracts",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_activityresultcontracts",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_android_net_uri",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_android_net_uri",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_android_os_bundle",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_android_os_bundle",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_android_widget_textview",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_android_widget_textview",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_androidx_activity_result_activityresultlauncher",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_androidx_activity_result_activityresultlauncher",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_androidx_appcompat_app_appcompatactivity",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_androidx_appcompat_app_appcompatactivity",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_mainactivity",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_button",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_button",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity_intent",
+      "fromNode": "n_app_src_main_java_id_dev_rikirg_downhillnative_mainactivity",
+      "toNode": "n_intent",
+      "label": "imports [EXTRACTED]"
+    }
+  ]
+}

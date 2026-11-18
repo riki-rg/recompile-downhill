@@ -1,0 +1,140 @@
+{
+  "/opt/data/apps/recompile-downhill/app/build.gradle.kts": {
+    "mtime": 1794573095.6244662,
+    "seen": 1794965586.5575633,
+    "ast_hash": "fe60768cc4ff3aa2e0f18d5aa990f379",
+    "semantic_hash": "fe60768cc4ff3aa2e0f18d5aa990f379"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/main/cpp/native_runtime.cpp": {
+    "mtime": 1794573023.9278088,
+    "seen": 1794965586.5575697,
+    "ast_hash": "0f0ae54b0f55a82aee365c6ef51c8bdd",
+    "semantic_hash": "0f0ae54b0f55a82aee365c6ef51c8bdd"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/main/java/id/dev/rikirg/downhillnative/DiagnosticActivity.java": {
+    "mtime": 1794571643.5529823,
+    "seen": 1794965586.557573,
+    "ast_hash": "0a31dc585ed658c5b2c8b85afa5b2b1f",
+    "semantic_hash": "0a31dc585ed658c5b2c8b85afa5b2b1f"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/main/java/id/dev/rikirg/downhillnative/IsoExplorerResult.java": {
+    "mtime": 1794505664.418928,
+    "seen": 1794965586.5575755,
+    "ast_hash": "509b22e6799395979527fc390dc7d78c",
+    "semantic_hash": "509b22e6799395979527fc390dc7d78c"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/main/java/id/dev/rikirg/downhillnative/IsoImageValidator.java": {
+    "mtime": 1794486341.1254334,
+    "seen": 1794965586.5575776,
+    "ast_hash": "797a51526542307d34db25058646bd76",
+    "semantic_hash": "797a51526542307d34db25058646bd76"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/main/java/id/dev/rikirg/downhillnative/MainActivity.java": {
+    "mtime": 1794571143.432977,
+    "seen": 1794965586.55758,
+    "ast_hash": "f68ff55873e16b2f761063e673aa54be",
+    "semantic_hash": "f68ff55873e16b2f761063e673aa54be"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/test/java/id/dev/rikirg/downhillnative/IsoExplorerResultTest.java": {
+    "mtime": 1794505732.5330186,
+    "seen": 1794965586.5575826,
+    "ast_hash": "76ab2e6a45d9dd0a56ee723e34513de6",
+    "semantic_hash": "76ab2e6a45d9dd0a56ee723e34513de6"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/test/java/id/dev/rikirg/downhillnative/IsoImageValidatorTest.java": {
+    "mtime": 1794486131.7613919,
+    "seen": 1794965586.5575845,
+    "ast_hash": "28a0f4964069afb46e5eccb5c5276660",
+    "semantic_hash": "28a0f4964069afb46e5eccb5c5276660"
+  },
+  "/opt/data/apps/recompile-downhill/build.gradle.kts": {
+    "mtime": 1794486038.4098198,
+    "seen": 1794965586.557587,
+    "ast_hash": "e56ce6338140edeeca2e3137975ccfc6",
+    "semantic_hash": "e56ce6338140edeeca2e3137975ccfc6"
+  },
+  "/opt/data/apps/recompile-downhill/gradlew": {
+    "mtime": 1794489293.6078496,
+    "seen": 1794965586.5575893,
+    "ast_hash": "f092910dfa8e47c5a37a452c3f6baf8a",
+    "semantic_hash": "f092910dfa8e47c5a37a452c3f6baf8a"
+  },
+  "/opt/data/apps/recompile-downhill/settings.gradle.kts": {
+    "mtime": 1794486029.391861,
+    "seen": 1794965586.5575914,
+    "ast_hash": "6ddc0e7127611d372903e8758f7364c7",
+    "semantic_hash": "6ddc0e7127611d372903e8758f7364c7"
+  },
+  "/opt/data/apps/recompile-downhill/.hermes/plans/2026-11-12_160000-native-iso-runtime.md": {
+    "mtime": 1794505119.559487,
+    "seen": 1794965586.5575938,
+    "ast_hash": "e267b7c7ff7bd4d6060cdb1bb123d389",
+    "semantic_hash": "e267b7c7ff7bd4d6060cdb1bb123d389"
+  },
+  "/opt/data/apps/recompile-downhill/CHANGELOG.md": {
+    "mtime": 1794573192.0479827,
+    "seen": 1794965586.5575962,
+    "ast_hash": "7e0d1200884f600dc830b14368a7155d",
+    "semantic_hash": "7e0d1200884f600dc830b14368a7155d"
+  },
+  "/opt/data/apps/recompile-downhill/README.md": {
+    "mtime": 1794573122.3173387,
+    "seen": 1794965586.557598,
+    "ast_hash": "85ac05136277481aeac8664445eaafa3",
+    "semantic_hash": "85ac05136277481aeac8664445eaafa3"
+  },
+  "/opt/data/apps/recompile-downhill/app/src/main/cpp/CMakeLists.txt": {
+    "mtime": 1794571343.345991,
+    "seen": 1794965586.5576005,
+    "ast_hash": "5c750f10aa54c593588d3883a33d77f7",
+    "semantic_hash": "5c750f10aa54c593588d3883a33d77f7"
+  },
+  "/opt/data/apps/recompile-downhill/docs/releases/v0.1.2.md": {
+    "mtime": 1794569674.0252204,
+    "seen": 1794965586.557603,
+    "ast_hash": "ab4dba2739a8fe5fe538ebe77ccb335c",
+    "semantic_hash": "ab4dba2739a8fe5fe538ebe77ccb335c"
+  },
+  "/opt/data/apps/recompile-downhill/docs/releases/v0.1.3.md": {
+    "mtime": 1794571852.05349,
+    "seen": 1794965586.557605,
+    "ast_hash": "08729a8ddd8634318fb80b8a0abc07f3",
+    "semantic_hash": "08729a8ddd8634318fb80b8a0abc07f3"
+  },
+  "/opt/data/apps/recompile-downhill/docs/releases/v0.1.4.md": {
+    "mtime": 1794572503.9853146,
+    "seen": 1794965586.5576074,
+    "ast_hash": "7fb25cd40cec02d00384ba28b6fdad20",
+    "semantic_hash": "7fb25cd40cec02d00384ba28b6fdad20"
+  },
+  "/opt/data/apps/recompile-downhill/docs/releases/v0.1.5.md": {
+    "mtime": 1794573201.026014,
+    "seen": 1794965586.5576096,
+    "ast_hash": "bdac8573c30547ebfd4152cd4cab588c",
+    "semantic_hash": "bdac8573c30547ebfd4152cd4cab588c"
+  },
+  "/opt/data/apps/recompile-downhill/docs/stages/01-iso-explorer.md": {
+    "mtime": 1794505932.1516702,
+    "seen": 1794965586.5576117,
+    "ast_hash": "853bc1b28283d256d42ade441adaad4a",
+    "semantic_hash": "853bc1b28283d256d42ade441adaad4a"
+  },
+  "/opt/data/apps/recompile-downhill/docs/stages/02-downhill-usa-fingerprint.md": {
+    "mtime": 1794572241.6605923,
+    "seen": 1794965586.557614,
+    "ast_hash": "a905b3b86046adaa6a98747f9e5702b2",
+    "semantic_hash": "a905b3b86046adaa6a98747f9e5702b2"
+  },
+  "/opt/data/apps/recompile-downhill/docs/stages/03-native-runtime-diagnostic.md": {
+    "mtime": 1794571778.342849,
+    "seen": 1794965586.5576162,
+    "ast_hash": "35c5d08f441880c2b042d038c049aee8",
+    "semantic_hash": "35c5d08f441880c2b042d038c049aee8"
+  },
+  "/opt/data/apps/recompile-downhill/docs/stages/04-recursive-iso-index.md": {
+    "mtime": 1794573084.7275183,
+    "seen": 1794965586.557619,
+    "ast_hash": "e833a37030ac61024ca3518b51c6496b",
+    "semantic_hash": "e833a37030ac61024ca3518b51c6496b"
+  }
+}
